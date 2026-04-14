@@ -17,7 +17,7 @@
     --texto-claro: #5a5a58;
   }
   html { scroll-behavior: smooth; }
-  body { font-family: 'Lato', sans-serif; background: var(--creme); color: var(--texto); }
+  body { font-family: 'Lato', sans-serif; background: var(--creme); color: var(--texto); overflow-x: hidden;}
 
   /* NAV */
   nav {
@@ -70,7 +70,7 @@
   .galeria-header h2 { font-family: 'Playfair Display', serif; font-size: 2.5rem; color: var(--verde-escuro); margin-bottom: 0.5rem; }
   .galeria-header p { color: var(--texto-claro); font-weight: 300; letter-spacing: 2px; font-size: 0.85rem; text-transform: uppercase; }
 
-  .carousel-wrapper { position: relative; overflow: hidden; width: 100%; }
+  .carousel-wrapper { position: relative; overflow: hidden; width: 100%; max-width: 100vw;}
   .carousel-track { display: flex; transition: opacity 0.8s ease; position: relative; animation: scroll 35s linear infinite;
 }
   
@@ -355,5 +355,6 @@
   <p style="margin-top:0.5rem; font-size:0.75rem;">@chale_aruana</p>
 </footer>
 
+  
 </body>
 </html>
